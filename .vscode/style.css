@@ -85,11 +85,11 @@ body * {
   left: 0;
   transform: translateY(-50%);
   top: 50%;
-  animation: slide-back 0,2s;
+  animation: slide-back 0, 2s;
 }
 
 .light #switch button {
- animation: slide-in 0.4s forwards;
+  animation: slide-in 0.4s forwards;
 }
 
 #switch span {
@@ -106,7 +106,7 @@ body * {
 /* links */
 
 ul {
-  list-style: noneS;
+  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -167,21 +167,19 @@ footer {
 
 /* animation */
 @keyframes slide-in {
-from 
-  {left: 0;
+  from {
+    left: 0;
   }
-to
- {left: 50%;
-}
+  to {
+    left: 50%;
+  }
 }
 
 @keyframes slide-back {
-from 
-  {
-   left: 50%;
+  from {
+    left: 50%;
   }
-to
-  {
-   left: 0;
-  } 
+  to {
+    left: 0;
+  }
 }
